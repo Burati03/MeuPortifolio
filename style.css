@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+body {
+  background: #0a0a0a;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.neon {
+  color: #0ff;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #0ff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ff0;
+  text-shadow: 0 0 10px #ff0;
+}
+
+.sobre, .habilidades, .previas, .contato {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #0ff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0ff;
+  flex: 1;
+  min-width: 250px;
+}
+
+button {
+  background: transparent;
+  border: 2px solid #0ff;
+  color: #0ff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0ff;
+  color: black;
+  box-shadow: 0 0 15px #0ff;
+}
+.especialidades {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.cards-especialidades {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card-especialidade {
+  background: #111;
+  padding: 20px;
+  border-radius: 12px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 0 15px #0ff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-especialidade img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.card-especialidade h3 {
+  color: #0ff;
+  margin-bottom: 10px;
+}
+
+.card-especialidade:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px #0ff;
+}
